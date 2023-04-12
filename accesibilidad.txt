@@ -1,0 +1,3 @@
+Mejoras utilizadas para una mejor accesibilidad:
+Se agrego el atributo title a aquellas imagenes que están enlazadas, para que el internauta pueda saber a dónde se lo redirige.
+Se utilizó el atributo alt para que una persona con discapacidad visual pueda saber de que tratan las imagenes.

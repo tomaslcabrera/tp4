@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    height: 7em;
+}
+
+.saltar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2em;
+    font-size: small;
+}
+
+.saltar-nav{
+    text-decoration: none;
+    color: black;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+
+.saltar-nav:hover{
+    color: red;
+    transition: all 0.3s;
+}
+
+.logo-container{
+    margin-left: 1em;
+}
+
+.logo{
+    height: 4em;
+    width: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    background-color: black;
+    padding-right: 0.5em;
+}
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    transition: all 0.5s;
+    color: red;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    gap: 0.5em;
+    height: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+}
+
+footer a:hover{
+    transition: all 0.3s;
+    color: blueviolet;
+}
+
+/* MAIN INDEX */
+
+.index-main{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.article-1{
+    width: 30%;
+    border-radius: 4em 0em;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-size: x-large;
+}
+
+.article-1:hover{
+    transition: all 1s;
+    width: 70%;
+    font-size: xx-large;
+    margin-left: 1em;
+}
+
+.article-2{
+    width: 30%;
+    border-radius: 0em 4em;
+    background-color: red;
+    padding: 1em;
+    font-size: x-large;
+}
+
+.article-2:hover{
+    transition: all 1s;
+    width: 70%;
+    font-size: xx-large;
+    margin-right: 1em;
+}
+
+/* MAIN REPARTO */
+
+.main-reparto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.card{
+    width: 500px;
+    height: 450px;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border-radius: 1em;
+}
+
+.card:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.card-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 4em;
+}
+
+.card-img:hover{
+    transition: all 0.5s;
+    transform: scale(1.25);
+}
+
+.card-title{
+    margin: 1em;
+    color: red;
+    font-weight: bold;
+}
+
+.card-text{
+    line-height: 20px;
+}
+
+/* MAIN DATOS */
+
+.container-dts{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.aside-dts{
+    width: 25%;
+    text-align: center;
+}
+
+.as-figure{
+    margin-bottom: 1em;
+}
+
+figure figcaption{
+    margin-bottom: 0.5em;
+    font-size: small;
+}
+
+.main-dts{
+    width: 75%;
+    margin-left: 10em;
+}
+
+.fig-img{
+    width: 300px;
+    height: 250px;
+}
+
+.tabla{
+    width: 800px;
+    border: black;
+    border-style: groove;
+    font-weight: bold;
+}
+
+.tabla:hover{
+    transition: all 0.5s;
+    background-color: black;
+    color: white;
+    transform: scale(1.1) translateY(0.7em);
+}
+
+table tr:hover{
+    transition: all 0.5s;
+    color: red;
+}
+
+/* Registro */
+.form{
+    display: block;
+}
